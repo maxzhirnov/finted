@@ -1,0 +1,4 @@
+baseURL: "https://finted.ru/"
+languageCode: "ru"
+title: "Финансовая грамотность и управление деньгами"
+theme: "ananke"
