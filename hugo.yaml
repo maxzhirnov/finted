@@ -2,3 +2,9 @@ baseURL: "https://finted.ru/"
 languageCode: "ru"
 title: "Финансовая грамотность и управление деньгами"
 theme: "ananke"
+taxonomies:
+  category: "categories"
+  tag: "tags"
+permalinks:
+  финансовая-грамотность: "/finansovaya-gramotnost/:slug/"
+preserveTaxonomyNames: true
