@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main class="main list" role="main">
+	{{- with .Content }}
+	<div class="content main__content clearfix">
+		{{ . }}
+	</div>
+	{{- end }}
+
+	{{- $paginator := .Paginate (where .Site.RegularPages "Type" "in" (slice "post" "финансовая-грамотность" "личные-финансы" "инвестиции" "кредитование" "страхование" "финансовая-безопасность" "налоги-и-налоговая-грамотность" "сбережения" "образование-и-карьера" "цифровая-финансовая-грамотность" "экономика-для-жизни" "психология-денег" "семейные-финансы" "пенсионное-планирование" "литература-и-ресурсы" "другое")) }}
+	{{- range $paginator.Pages }}
+		{{- .Render "summary" }}
+	{{- end }}
+
+	{{ partial "pagination.html" . }}
+</main>
+{{ end }}

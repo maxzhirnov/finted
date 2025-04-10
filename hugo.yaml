@@ -1,7 +1,7 @@
 baseURL: "https://finted.ru/"
 languageCode: "ru"
-title: "Финансовая грамотность и управление деньгами"
-theme: "ananke"
+title: "Finted - Финансовая грамотность и управление деньгами"
+theme: "mainroad"
 taxonomies:
   category: "categories"
   tag: "tags"
@@ -23,3 +23,34 @@ permalinks:
   литература-и-ресурсы: "/literatura-i-resursy/:slug/"
   другое: "/drugoe/:slug/"
 preserveTaxonomyNames: true
+
+pagination:
+  paginateSize: 10
+
+params:
+  description: "Финансовая грамотность и управление деньгами"
+  toc: true
+  readmore: true
+  readmoreText: "Читать далее →"
+  logo:
+    # image: Add
+    title: Finted
+    subtitle: Финансовая грамотность и управление деньгами
+  thumbnail:
+    visibility: 
+      - "list"
+      - "post"
+  sidebar:
+    home: "right"  # или "left"
+    list: "right"
+    single: "right"
+    widgets:
+      - "search"
+      - "recent"
+      - "categories"
+      - "taglist"
+      - "social"
+  widgets:
+    recent_num: 5
+    categories_counter: true # Enable counter for each category in "Categories" widget
+    tags_counter: true # Enable counter for each tag in "Tags" widget

@@ -1,0 +1,110 @@
+<article class="list__item post">
+    {{ partial "post_thumbnail.html" (dict "class" "list" "page" .) }}
+    <header class="list__header">
+        <h2 class="list__title post__title">
+            <a href="{{ .RelPermalink }}" rel="bookmark">
+                {{ .Title }}
+            </a>
+        </h2>
+        {{- with .Params.lead }}
+        <p class="list__lead post__lead">{{ . }}</p>
+        {{- end }}
+        {{ with partial "post_meta.html" . -}}
+        <div class="list__meta meta">{{ . }}</div>
+        {{- end }}
+    </header>
+    
+    <div class="content list__excerpt post__content clearfix summary-text">
+        {{ if .Params.featured_quote }}
+        <blockquote class="featured-quote">
+            {{ .Params.featured_quote }}
+        </blockquote>
+        {{ end }}
+        
+        <div class="summary-content">
+            {{ if .Params.custom_summary }}
+                {{ .Params.custom_summary | safeHTML }}
+            {{ else }}
+                {{ $summary := .Summary }}
+                {{ $summary := replaceRE "<h1([^>]*)>" "<h4$1 class=\"summary-heading\">" $summary }}
+                {{ $summary := replaceRE "<h2([^>]*)>" "<h5$1 class=\"summary-heading\">" $summary }}
+                {{ $summary := replaceRE "<h3([^>]*)>" "<h6$1 class=\"summary-heading\">" $summary }}
+                {{ $summary := replaceRE "<h4([^>]*)>" "<h6$1 class=\"summary-heading\">" $summary }}
+                {{ $summary := replaceRE "<h5([^>]*)>" "<h6$1 class=\"summary-heading\">" $summary }}
+                {{ $summary | safeHTML }}
+            {{ end }}
+        </div>
+        
+        {{ if .Params.key_points }}
+        <div class="key-points">
+            <h6 class="key-points-title">Ключевые моменты:</h6>
+            <ul>
+                {{ range .Params.key_points }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+    
+    <div class="list__footer clearfix">
+        <div class="post-info">
+            {{ if .Params.categories }}
+            <span class="post-category">
+                <i class="fas fa-folder"></i> 
+                {{ range $index, $category := .Params.categories }}
+                    {{- if gt $index 0 }}, {{ end -}}
+                    <a href="{{ "categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{- end }}
+            </span>
+            {{ end }}
+            
+            <span class="post-reading-time">
+                <i class="fas fa-clock"></i> {{ .ReadingTime }} мин. чтения
+            </span>
+        </div>
+        
+        {{- if .Site.Params.readmore }}
+		{{- if .Truncated }}
+		<div class="list__footer clearfix">
+			<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ .Site.Params.readmoreText | default (T "read_more") }}</a>
+		</div>
+		{{- end }}
+		{{- end }}
+    </div>
+</article>
+
+<style>
+.summary-text .summary-heading {
+  color: #717171;
+}
+.summary-text a {
+  color: #1e73be;
+}
+.list__title a {
+  color: #000;
+}
+.summary-heading {
+  font-size: 1rem !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #444;
+}
+.key-points-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.key-points ul {
+  margin-top: 0.3rem;
+}
+.summary-content p {
+  margin-bottom: 0.7rem;
+}
+.featured-quote {
+  font-style: italic;
+  border-left: 3px solid #ddd;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #555;
+}
+</style>

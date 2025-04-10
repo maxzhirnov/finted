@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Финансовая грамотность и управление деньгами</title>
+    <title>Finted - Финансовая грамотность и управление деньгами</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Финансовая грамотность и управление деньгами</description>
+    <description>Recent content on Finted - Финансовая грамотность и управление деньгами</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Fri, 04 Apr 2025 13:48:00 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Курсы по инвестициям: обзор лучших программ</title>
+      <link>http://localhost:1313/investicii/kursy-po-investitsiyam-obzor-luchshikh-programm/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/investicii/kursy-po-investitsiyam-obzor-luchshikh-programm/</guid>
+      <description>&lt;h2 id=&#34;курсы-по-инвестициям-обзор-лучших-программ&#34;&gt;Курсы по инвестициям: обзор лучших программ&lt;/h2&gt;&#xA;&lt;p&gt;Привет, друзья! Сегодня мы поговорим о курсах по инвестициям. Если вы хотите научиться зарабатывать деньги на фондовом рынке или просто узнать больше об инвестициях, то эта статья для вас.&lt;/p&gt;&#xA;&lt;h3 id=&#34;почему-стоит-выбрать-курсы-по-инвестициям&#34;&gt;Почему стоит выбрать курсы по инвестициям?&lt;/h3&gt;&#xA;&lt;p&gt;Инвестиции — это один из самых популярных способов заработка в современном мире. Но чтобы стать успешным инвестором, нужно знать основы инвестирования и понимать, как работает фондовый рынок. Курсы по инвестициям помогут вам в этом.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Как выбрать программу накопительного страхования</title>
       <link>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-programmu-nakopitelnogo-strahovania/</link>
