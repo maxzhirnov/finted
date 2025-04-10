@@ -54,6 +54,10 @@ params:
     recent_num: 5
     categories_counter: true # Enable counter for each category in "Categories" widget
     tags_counter: true # Enable counter for each tag in "Tags" widget
+  post_meta:
+    - "author"
+    - "date"
+    - "categories"
   mainSections:
     - post
     - финансовая-грамотность

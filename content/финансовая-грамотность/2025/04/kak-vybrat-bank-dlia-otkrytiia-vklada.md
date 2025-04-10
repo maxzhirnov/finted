@@ -1,5 +1,5 @@
 ---
-title: "Финансовое планирование для фрилансеров и предпринимателей"
+title: "Как выбрать банк для открытия вклада"
 date: 2025-04-10T18:52:03+03:00
 draft: false
 categories:
@@ -8,7 +8,7 @@ tags:
   - Финансовая грамотность
   - Сбережения
   - Инвестиции
-slug: "finansovoe-planirovanie-dlya-frilanserov-i-predprinimateley"
+slug: "kak-vybrat-bank-dlia-otkrytiia-vklada"
 lastmod: 2025-04-10T18:52:03+03:00
 ---
 
