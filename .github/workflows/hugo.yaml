@@ -45,4 +45,4 @@ jobs:
         run: hugo version
         
       - name: Check Hugo Config
-        run: cat config.yaml
+        run: cat hugo.yaml
