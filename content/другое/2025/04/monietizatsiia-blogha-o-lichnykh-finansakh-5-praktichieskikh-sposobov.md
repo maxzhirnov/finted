@@ -1,5 +1,5 @@
 ---
-title: "Как составить личный бюджет"
+title: "Монетизация блога о личных финансах: **5 практических способов"
 date: 2025-04-11T01:16:56+03:00
 draft: false
 categories:
@@ -9,7 +9,7 @@ tags:
   - Личные финансы
   - Цифровые продукты
   - Партнерский маркетинг
-slug: "kak-sostavit-lichnyy-byudzhet"
+slug: "monietizatsiia-blogha-o-lichnykh-finansakh-5-praktichieskikh-sposobov"
 lastmod: 2025-04-11T01:16:56+03:00
 ---
 
