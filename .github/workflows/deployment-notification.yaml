@@ -2,7 +2,8 @@
 name: Deployment Notification
 
 on:
-  deployment_status:
+  page_build:
+  # deployment_status:
 
 jobs:
   notify:
