@@ -32,10 +32,12 @@ params:
   toc: true
   readmore: true
   readmoreText: "Читать далее →"
+  mathjax: true
+  customCSS: ["css/custom.css"]
   logo:
-    # image: Add
     title: Finted
     subtitle: Финансовая грамотность и управление деньгами
+    useSvg: true
   thumbnail:
     visibility: 
       - "list"

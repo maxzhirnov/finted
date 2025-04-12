@@ -1,0 +1,29 @@
+{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
+{{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
+{{- $logoImage := .Site.Params.logo.image -}}
+{{- $useSvgLogo := .Site.Params.logo.useSvg | default true -}}
+
+{{- if or $logoTitle $logoImage $useSvgLogo }}
+	{{/* Defined when logo is mixed (image + text) */}}
+	{{- $logoMix := and (or $logoImage $useSvgLogo) $logoTitle -}}
+
+	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
+		<a class="logo__link logo__link--flex" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
+			{{ if $useSvgLogo -}}
+				<div class="logo__item logo__svg">
+					{{ partial "svg/finted-logo.svg" . | safeHTML }}
+				</div>
+			{{- else if $logoImage -}}
+				<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="{{ $logoImage | relURL }}">
+				</div>
+			{{- end -}}
+			{{ with $logoTitle -}}
+				<div class="logo__item logo__text">
+					<div class="logo__title">{{ . }}</div>
+					{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+				</div>
+			{{- end }}
+		</a>
+	</div>
+{{- end }}
