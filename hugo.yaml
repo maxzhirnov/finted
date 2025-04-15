@@ -27,6 +27,11 @@ preserveTaxonomyNames: true
 pagination:
   paginateSize: 10
 
+sitemap:
+  changefreq: "weekly"
+  filename: "sitemap.xml"
+  priority: 0.5
+
 params:
   description: "Финансовая грамотность и управление деньгами"
   toc: true

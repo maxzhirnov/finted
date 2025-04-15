@@ -10,6 +10,19 @@
 	{{ partial "yandex-metrica.html" . }}
 	{{ partial "mathjax_support.html" . }}
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+	
+	<!-- index -->
+	{{- if .IsHome }}
+	<meta name="robots" content="index, follow">
+	{{- else }}
+	{{- if .Params.noindex }}
+	<meta name="robots" content="noindex">
+	{{- else }}
+	<meta name="robots" content="index, follow">
+	{{- end }}
+	{{- end }}
+	<!-- index  -->
+
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
 	{{- end }}
