@@ -9,19 +9,22 @@
 
 	<div class="logo{{ with $logoMix }} logo--mixed{{ end }}">
 		<a class="logo__link logo__link--flex" href="{{ "" | relLangURL }}"{{ with $logoTitle }} title="{{ . }}"{{ end }} rel="home">
-			{{ if $useSvgLogo -}}
-				<div class="logo__item logo__svg">
-					{{ partial "svg/finted-logo.svg" . | safeHTML }}
-				</div>
-			{{- else if $logoImage -}}
+			{{ if $logoImage -}}
 				<div class="logo__item logo__imagebox">
 					<img class="logo__img" src="{{ $logoImage | relURL }}">
 				</div>
 			{{- end -}}
 			{{ with $logoTitle -}}
 				<div class="logo__item logo__text">
-					<div class="logo__title">{{ . }}</div>
-					{{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+					<div class="logo__logo">
+						{{ if $useSvgLogo -}}
+						<div class="logo__item__svg logo__svg">{{ partial "svg/finted-logo.svg" . | safeHTML }}</div>
+						{{- end -}}
+						<div class="logo__title">{{ . }}</div>
+					</div>
+					{{ with $logoSubtitle }}
+					<div class="logo__tagline">{{ . }}</div>
+					{{ end }}
 				</div>
 			{{- end }}
 		</a>
