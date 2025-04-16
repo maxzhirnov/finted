@@ -1,5 +1,10 @@
 baseURL: "https://finted.ru/"
 languageCode: "ru"
+defaultContentLanguage: "ru"
+languages:
+  ru:
+    languageName: "Русский"
+    weight: 1
 title: "Finted - Финансовая грамотность и управление деньгами"
 theme: "mainroad"
 taxonomies:
@@ -36,7 +41,6 @@ params:
   description: "Финансовая грамотность и управление деньгами"
   toc: true
   readmore: true
-  readmoreText: "Читать далее →"
   mathjax: true
   customCSS: ["css/custom.css"]
   logo:

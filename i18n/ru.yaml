@@ -1,2 +1,5 @@
 - id: read_more
   translation: "Читать далее →"
+
+- id: recent_title
+  translation: "Недавние публикации"
