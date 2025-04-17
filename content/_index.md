@@ -1,6 +1,8 @@
 ---
-title: "Главная страница Finted"
+title: "Главная"
 type: home
 noindex: false
+menu: 
+    - main
+    - footer
 ---
-Добро пожаловать на наш сайт о финансовой грамотности!
