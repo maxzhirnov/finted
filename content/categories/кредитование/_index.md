@@ -2,5 +2,8 @@
 title: "Кредитование"
 slug: "kreditovanie"
 url: "/kreditovanie/"
-menu: main
+menus:
+    main:
+        params:
+        weight: 3
 ---

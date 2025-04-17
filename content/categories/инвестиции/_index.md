@@ -2,5 +2,8 @@
 title: "Инвестиции"
 slug: "investicii"
 url: "/investicii/"
-menu: main
+menus:
+    main:
+        params:
+        weight: 4
 ---

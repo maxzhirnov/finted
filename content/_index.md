@@ -2,7 +2,8 @@
 title: "Главная"
 type: home
 noindex: false
-menu: 
-    - main
-    - footer
+menus:
+    main:
+        params:
+        weight: 1
 ---
