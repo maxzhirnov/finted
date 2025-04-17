@@ -11,23 +11,8 @@ taxonomies:
   category: "categories"
   tag: "tags"
 permalinks:
-  финансовая-грамотность: "/finansovaya-gramotnost/:slug/"
-  личные-финансы: "/lichnye-finansy/:slug/"
-  инвестиции: "/investicii/:slug/"
-  кредитование: "/kreditovanie/:slug/"
-  страхование: "/strahovanie/:slug/"
-  финансовая-безопасность: "/finansovaya-bezopasnost/:slug/"
-  налоги-и-налоговая-грамотность: "/nalogi-i-nalogovaya-gramotnost/:slug/"
-  сбережения: "/sberejeniya/:slug/"
-  образование-и-карьера: "/obrazovanie-i-kariera/:slug/"
-  цифровая-финансовая-грамотность: "/cifrovaya-finansovaya-gramotnost/:slug/"
-  экономика-для-жизни: "/ekonomika-dlya-jizni/:slug/"
-  психология-денег: "/psihologiya-deneg/:slug/"
-  семейные-финансы: "/semeynye-finansy/:slug/"
-  пенсионное-планирование: "/pensionnoe-planirovanie/:slug/"
-  литература-и-ресурсы: "/literatura-i-resursy/:slug/"
-  другое: "/drugoe/:slug/"
-preserveTaxonomyNames: true
+  posts: "/:slug/"
+preserveTaxonomyNames: false
 
 pagination:
   paginateSize: 10
@@ -70,20 +55,4 @@ params:
     - "date"
     - "categories"
   mainSections:
-    - post
-    - финансовая-грамотность
-    - личные-финансы
-    - инвестиции
-    - кредитование
-    - страхование
-    - финансовая-безопасность
-    - налоги-и-налоговая-грамотность
-    - сбережения
-    - образование-и-карьера
-    - цифровая-финансовая-грамотность
-    - экономика-для-жизни
-    - психология-денег
-    - семейные-финансы
-    - пенсионное-планирование
-    - литература-и-ресурсы
-    - другое
+  - posts

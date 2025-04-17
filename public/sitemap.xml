@@ -3,36 +3,101 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-17T15:00:08+03:00</lastmod>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/etf-%D1%84%D0%BE%D0%BD%D0%B4%D1%8B/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-17T15:00:08+03:00</lastmod>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D0%B8/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/investicii/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/investitsii-dlya-lenivykh-avtomaticheskie-strategii/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BF%D0%B8%D1%84%D1%8B/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D1%80%D0%BE%D0%B1%D0%BE-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D1%8B/</loc>
+    <lastmod>2025-04-17T16:27:10+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D0%BF%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9-%D0%B4%D0%BE%D1%85%D0%BE%D0%B4/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/rukovodstvo-po-sozdaniyu-passivnogo-dokhoda-cherez-nedvizhimost/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%D1%8E/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/finansovaya-gramotnost/</loc>
+    <lastmod>2025-04-17T16:24:55+03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/kak-poluchit-kredit-s-plokhoy-kreditnoy-istoriey/</loc>
     <lastmod>2025-04-17T15:00:08+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/kreditovanie/kak-poluchit-kredit-s-plokhoy-kreditnoy-istoriey/</loc>
-    <lastmod>2025-04-17T15:00:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
+    <loc>http://localhost:1313/kreditovanie/</loc>
     <lastmod>2025-04-17T15:00:08+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
-    <lastmod>2025-04-17T15:00:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
     <lastmod>2025-04-17T15:00:08+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -47,7 +112,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-ekonomit-na-produktakh-pitaniya/</loc>
+    <loc>http://localhost:1313/kak-ekonomit-na-produktakh-pitaniya/</loc>
     <lastmod>2025-04-17T07:00:08+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -58,16 +123,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/</loc>
-    <lastmod>2025-04-17T07:00:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/</loc>
-    <lastmod>2025-04-17T07:00:08+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
     <lastmod>2025-04-17T07:00:08+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -92,7 +147,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-vygodnuyu-debetovuyu-kartu/</loc>
+    <loc>http://localhost:1313/kak-vybrat-vygodnuyu-debetovuyu-kartu/</loc>
     <lastmod>2025-04-16T19:00:09+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -107,7 +162,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-sekonomit-na-lekarstvakh-legalnye-sposoby/</loc>
+    <loc>http://localhost:1313/kak-sekonomit-na-lekarstvakh-legalnye-sposoby/</loc>
     <lastmod>2025-04-16T18:48:38+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -117,22 +172,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8/</loc>
-    <lastmod>2025-04-16T16:56:48+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F-%D0%B4%D0%B5%D0%BD%D0%B5%D0%B3/</loc>
     <lastmod>2025-04-16T16:56:48+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/chto-takoe-finansovaya-psikhologiya-i-kak-ona-vliyaet-na-nashi-resheniya/</loc>
+    <loc>http://localhost:1313/chto-takoe-finansovaya-psikhologiya-i-kak-ona-vliyaet-na-nashi-resheniya/</loc>
     <lastmod>2025-04-16T16:56:48+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-sekonomit-na-pokupke-smartfona/</loc>
+    <loc>http://localhost:1313/kak-sekonomit-na-pokupke-smartfona/</loc>
     <lastmod>2025-04-16T16:44:28+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -172,7 +222,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-pravilno-investirovat-nebolshie-summy/</loc>
+    <loc>http://localhost:1313/kak-pravilno-investirovat-nebolshie-summy/</loc>
     <lastmod>2025-04-16T16:37:38+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -187,17 +237,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8/</loc>
-    <lastmod>2025-04-16T15:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/investicii/</loc>
-    <lastmod>2025-04-16T15:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/investicii/indeksnye-fondy-etf-chto-eto-i-kak-oni-rabotayut/</loc>
+    <loc>http://localhost:1313/indeksnye-fondy-etf-chto-eto-i-kak-oni-rabotayut/</loc>
     <lastmod>2025-04-16T15:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -222,27 +262,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/finansovoe-planirovanie-dlya-vladeltsev-malogo-biznesa/</loc>
+    <loc>http://localhost:1313/finansovoe-planirovanie-dlya-vladeltsev-malogo-biznesa/</loc>
     <lastmod>2025-04-15T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/layfkhaki-dlya-ekonomii-na-produktakh-pitaniya/</loc>
+    <loc>http://localhost:1313/layfkhaki-dlya-ekonomii-na-produktakh-pitaniya/</loc>
     <lastmod>2025-04-15T15:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D0%B8-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</loc>
+    <loc>http://localhost:1313/literatura-i-resursy/</loc>
     <lastmod>2025-04-15T07:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D0%B8-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</loc>
-    <lastmod>2025-04-15T07:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/literatura-i-resursy/luchshie-knigi-po-lichnym-finansam/</loc>
+    <loc>http://localhost:1313/luchshie-knigi-po-lichnym-finansam/</loc>
     <lastmod>2025-04-15T07:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -277,7 +312,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/ekonomika-dlya-jizni/finansovye-pokazateli-effektivnosti-udalennoy-raboty/</loc>
+    <loc>http://localhost:1313/finansovye-pokazateli-effektivnosti-udalennoy-raboty/</loc>
     <lastmod>2025-04-14T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -287,17 +322,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8/</loc>
+    <loc>http://localhost:1313/ekonomika-dlya-jizni/</loc>
     <lastmod>2025-04-14T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8/</loc>
-    <lastmod>2025-04-14T19:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-bank-dlya-valyutnogo-scheta/</loc>
+    <loc>http://localhost:1313/kak-vybrat-bank-dlya-valyutnogo-scheta/</loc>
     <lastmod>2025-04-14T15:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -312,7 +342,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-bank-dlya-otkrytiya-scheta-ooo/</loc>
+    <loc>http://localhost:1313/kak-vybrat-bank-dlya-otkrytiya-scheta-ooo/</loc>
     <lastmod>2025-04-14T11:08:50+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -347,7 +377,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/strahovanie/kak-vybrat-strakhovku-dlya-avtomobilya/</loc>
+    <loc>http://localhost:1313/kak-vybrat-strakhovku-dlya-avtomobilya/</loc>
     <lastmod>2025-04-13T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -362,12 +392,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
-    <lastmod>2025-04-13T19:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</loc>
+    <loc>http://localhost:1313/strahovanie/</loc>
     <lastmod>2025-04-13T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -377,7 +402,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-poluchit-nalogovyy-vychet-za-pokupku-investitsionnykh-monet/</loc>
+    <loc>http://localhost:1313/kak-poluchit-nalogovyy-vychet-za-pokupku-investitsionnykh-monet/</loc>
     <lastmod>2025-04-13T15:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -397,17 +422,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/kreditovanie/kak-vybrat-bank-dlya-oformleniya-avtokredita/</loc>
+    <loc>http://localhost:1313/kak-vybrat-bank-dlya-oformleniya-avtokredita/</loc>
     <lastmod>2025-04-12T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/layfkhaki-dlya-ekonomii-deneg-v-povsednevnoy-zhizni/</loc>
+    <loc>http://localhost:1313/layfkhaki-dlya-ekonomii-deneg-v-povsednevnoy-zhizni/</loc>
     <lastmod>2025-04-12T16:08:31+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-sekonomit-na-mobilnoy-svyazi-v-2025-godu/</loc>
+    <loc>http://localhost:1313/kak-sekonomit-na-mobilnoy-svyazi-v-2025-godu/</loc>
     <lastmod>2025-04-12T15:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -442,7 +467,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/investicii/pochemu-vazhno-nachinat-investirovat-kak-mozhno-ranshe/</loc>
+    <loc>http://localhost:1313/pochemu-vazhno-nachinat-investirovat-kak-mozhno-ranshe/</loc>
     <lastmod>2025-04-12T07:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -472,7 +497,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/finansovaya-strategiya-pri-vysokikh-protsentnykh-stavkakh/</loc>
+    <loc>http://localhost:1313/finansovaya-strategiya-pri-vysokikh-protsentnykh-stavkakh/</loc>
     <lastmod>2025-04-12T01:42:30+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -492,7 +517,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-bezopasnost/kak-zashchitit-dengi-ot-moshennikov/</loc>
+    <loc>http://localhost:1313/kak-zashchitit-dengi-ot-moshennikov/</loc>
     <lastmod>2025-04-11T20:01:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -502,17 +527,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
+    <loc>http://localhost:1313/finansovaya-bezopasnost/</loc>
     <lastmod>2025-04-11T20:01:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/tags/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
-    <lastmod>2025-04-11T20:01:56+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
     <lastmod>2025-04-11T20:01:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -542,12 +562,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/cifrovaya-finansovaya-gramotnost/finansovye-modeli-podpisochnogo-biznesa/</loc>
+    <loc>http://localhost:1313/finansovye-modeli-podpisochnogo-biznesa/</loc>
     <lastmod>2025-04-11T19:57:26+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
+    <loc>http://localhost:1313/cifrovaya-finansovaya-gramotnost/</loc>
     <lastmod>2025-04-11T19:57:26+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -557,27 +577,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
-    <lastmod>2025-04-11T19:57:26+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/tags/%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
     <lastmod>2025-04-11T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/kak-poluchit-nalogovyy-vychet-za-blagotvoritelnost/</loc>
+    <loc>http://localhost:1313/kak-poluchit-nalogovyy-vychet-za-blagotvoritelnost/</loc>
     <lastmod>2025-04-11T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8-%D0%B8-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
-    <lastmod>2025-04-11T19:00:00+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8-%D0%B8-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
+    <loc>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/</loc>
     <lastmod>2025-04-11T19:00:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -597,12 +607,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-bezopasnost/finansovye-instrumenty-dlya-zashchity-ot-regulyatornykh-riskov/</loc>
+    <loc>http://localhost:1313/finansovye-instrumenty-dlya-zashchity-ot-regulyatornykh-riskov/</loc>
     <lastmod>2025-04-11T18:45:16+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/finansovye-tekhnologii-dlya-upravleniya-znaniyami/</loc>
+    <loc>http://localhost:1313/finansovye-tekhnologii-dlya-upravleniya-znaniyami/</loc>
     <lastmod>2025-04-11T16:02:59+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -612,7 +622,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-nauchit-rebenka-obrashchatsya-s-dengami/</loc>
+    <loc>http://localhost:1313/kak-nauchit-rebenka-obrashchatsya-s-dengami/</loc>
     <lastmod>2025-04-11T15:59:10+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -647,17 +657,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/finansovye-pokazateli-effektivnosti-marketinga/</loc>
+    <loc>http://localhost:1313/finansovye-pokazateli-effektivnosti-marketinga/</loc>
     <lastmod>2025-04-11T01:25:51+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B5/</loc>
-    <lastmod>2025-04-11T01:16:56+03:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B5/</loc>
+    <loc>http://localhost:1313/drugoe/</loc>
     <lastmod>2025-04-11T01:16:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -667,7 +672,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/drugoe/monietizatsiia-blogha-o-lichnykh-finansakh-5-praktichieskikh-sposobov/</loc>
+    <loc>http://localhost:1313/monietizatsiia-blogha-o-lichnykh-finansakh-5-praktichieskikh-sposobov/</loc>
     <lastmod>2025-04-11T01:16:56+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -682,7 +687,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-bank-dlia-otkrytiia-vklada/</loc>
+    <loc>http://localhost:1313/kak-vybrat-bank-dlia-otkrytiia-vklada/</loc>
     <lastmod>2025-04-10T18:52:03+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -692,7 +697,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/investicii/kursy-po-investitsiyam-obzor-luchshikh-programm/</loc>
+    <loc>http://localhost:1313/kursy-po-investitsiyam-obzor-luchshikh-programm/</loc>
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -702,7 +707,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/finansovaya-gramotnost/kak-vybrat-programmu-nakopitelnogo-strahovania/</loc>
+    <loc>http://localhost:1313/kak-vybrat-programmu-nakopitelnogo-strahovania/</loc>
     <lastmod>2025-04-04T13:48:00+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

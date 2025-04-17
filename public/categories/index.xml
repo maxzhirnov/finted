@@ -6,76 +6,76 @@
     <description>Recent content in Categories on Finted - Финансовая грамотность и управление деньгами</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 17 Apr 2025 15:00:08 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Apr 2025 16:27:10 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Кредитование</title>
-      <link>http://localhost:1313/categories/%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
-      <pubDate>Thu, 17 Apr 2025 15:00:08 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Финансовая Грамотность</title>
-      <link>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
-      <pubDate>Thu, 17 Apr 2025 07:00:08 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Инвестиции</title>
-      <link>http://localhost:1313/categories/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8/</link>
-      <pubDate>Wed, 16 Apr 2025 15:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8/</guid>
+      <link>http://localhost:1313/investicii/</link>
+      <pubDate>Thu, 17 Apr 2025 16:27:10 +0300</pubDate>
+      <guid>http://localhost:1313/investicii/</guid>
       <description></description>
     </item>
     <item>
-      <title>Литература И Ресурсы</title>
-      <link>http://localhost:1313/categories/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D0%B8-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</link>
+      <title>Финансовая грамотность</title>
+      <link>http://localhost:1313/finansovaya-gramotnost/</link>
+      <pubDate>Thu, 17 Apr 2025 16:24:55 +0300</pubDate>
+      <guid>http://localhost:1313/finansovaya-gramotnost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Кредитование</title>
+      <link>http://localhost:1313/kreditovanie/</link>
+      <pubDate>Thu, 17 Apr 2025 15:00:08 +0300</pubDate>
+      <guid>http://localhost:1313/kreditovanie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Литература и ресурсы</title>
+      <link>http://localhost:1313/literatura-i-resursy/</link>
       <pubDate>Tue, 15 Apr 2025 07:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0-%D0%B8-%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D1%8B/</guid>
+      <guid>http://localhost:1313/literatura-i-resursy/</guid>
       <description></description>
     </item>
     <item>
-      <title>Экономика Для Жизни</title>
-      <link>http://localhost:1313/categories/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8/</link>
+      <title>Экономика для жизни</title>
+      <link>http://localhost:1313/ekonomika-dlya-jizni/</link>
       <pubDate>Mon, 14 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8/</guid>
+      <guid>http://localhost:1313/ekonomika-dlya-jizni/</guid>
       <description></description>
     </item>
     <item>
       <title>Страхование</title>
-      <link>http://localhost:1313/categories/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+      <link>http://localhost:1313/strahovanie/</link>
       <pubDate>Sun, 13 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
+      <guid>http://localhost:1313/strahovanie/</guid>
       <description></description>
     </item>
     <item>
-      <title>Финансовая Безопасность</title>
-      <link>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Финансовая безопасность</title>
+      <link>http://localhost:1313/finansovaya-bezopasnost/</link>
       <pubDate>Fri, 11 Apr 2025 20:01:56 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <guid>http://localhost:1313/finansovaya-bezopasnost/</guid>
       <description></description>
     </item>
     <item>
-      <title>Цифровая Финансовая Грамотность</title>
-      <link>http://localhost:1313/categories/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Цифровая и финансовая грамотность</title>
+      <link>http://localhost:1313/cifrovaya-finansovaya-gramotnost/</link>
       <pubDate>Fri, 11 Apr 2025 19:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D1%8F-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <guid>http://localhost:1313/cifrovaya-finansovaya-gramotnost/</guid>
       <description></description>
     </item>
     <item>
-      <title>Налоги И Налоговая Грамотность</title>
-      <link>http://localhost:1313/categories/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8-%D0%B8-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Налоги и налоговая грамотность</title>
+      <link>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/</link>
       <pubDate>Fri, 11 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8-%D0%B8-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F-%D0%B3%D1%80%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</guid>
+      <guid>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/</guid>
       <description></description>
     </item>
     <item>
       <title>Другое</title>
-      <link>http://localhost:1313/categories/%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B5/</link>
+      <link>http://localhost:1313/drugoe/</link>
       <pubDate>Fri, 11 Apr 2025 01:16:56 +0300</pubDate>
-      <guid>http://localhost:1313/categories/%D0%B4%D1%80%D1%83%D0%B3%D0%BE%D0%B5/</guid>
+      <guid>http://localhost:1313/drugoe/</guid>
       <description></description>
     </item>
   </channel>
