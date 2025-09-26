@@ -2,80 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Finted - Финансовая грамотность и управление деньгами</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:58263/categories/</link>
     <description>Recent content in Categories on Finted - Финансовая грамотность и управление деньгами</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 17 Apr 2025 16:27:10 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Инвестиции</title>
-      <link>http://localhost:1313/investicii/</link>
-      <pubDate>Thu, 17 Apr 2025 16:27:10 +0300</pubDate>
-      <guid>http://localhost:1313/investicii/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Финансовая грамотность</title>
-      <link>http://localhost:1313/finansovaya-gramotnost/</link>
-      <pubDate>Thu, 17 Apr 2025 16:24:55 +0300</pubDate>
-      <guid>http://localhost:1313/finansovaya-gramotnost/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Кредитование</title>
-      <link>http://localhost:1313/kreditovanie/</link>
-      <pubDate>Thu, 17 Apr 2025 15:00:08 +0300</pubDate>
-      <guid>http://localhost:1313/kreditovanie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Литература и ресурсы</title>
-      <link>http://localhost:1313/literatura-i-resursy/</link>
-      <pubDate>Tue, 15 Apr 2025 07:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/literatura-i-resursy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Экономика для жизни</title>
-      <link>http://localhost:1313/ekonomika-dlya-jizni/</link>
-      <pubDate>Mon, 14 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/ekonomika-dlya-jizni/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Страхование</title>
-      <link>http://localhost:1313/strahovanie/</link>
-      <pubDate>Sun, 13 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/strahovanie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Финансовая безопасность</title>
-      <link>http://localhost:1313/finansovaya-bezopasnost/</link>
-      <pubDate>Fri, 11 Apr 2025 20:01:56 +0300</pubDate>
-      <guid>http://localhost:1313/finansovaya-bezopasnost/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Цифровая и финансовая грамотность</title>
-      <link>http://localhost:1313/cifrovaya-finansovaya-gramotnost/</link>
-      <pubDate>Fri, 11 Apr 2025 19:57:26 +0300</pubDate>
-      <guid>http://localhost:1313/cifrovaya-finansovaya-gramotnost/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Fri, 26 Sep 2025 15:00:04 +0300</lastBuildDate>
+    <atom:link href="http://localhost:58263/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Налоги и налоговая грамотность</title>
-      <link>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/</link>
-      <pubDate>Fri, 11 Apr 2025 19:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/nalogi-i-nalogovaya-gramotnost/</guid>
+      <link>http://localhost:58263/nalogi-i-nalogovaya-gramotnost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/nalogi-i-nalogovaya-gramotnost/</guid>
       <description></description>
     </item>
     <item>
       <title>Другое</title>
-      <link>http://localhost:1313/drugoe/</link>
-      <pubDate>Fri, 11 Apr 2025 01:16:56 +0300</pubDate>
-      <guid>http://localhost:1313/drugoe/</guid>
+      <link>http://localhost:58263/drugoe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/drugoe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Сбережения</title>
+      <link>http://localhost:58263/categories/%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/categories/%D1%81%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Финансовая грамотность</title>
+      <link>http://localhost:58263/finansovaya-gramotnost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/finansovaya-gramotnost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Цифровая и финансовая грамотность</title>
+      <link>http://localhost:58263/cifrovaya-finansovaya-gramotnost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/cifrovaya-finansovaya-gramotnost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Инвестиции</title>
+      <link>http://localhost:58263/investicii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/investicii/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Страхование</title>
+      <link>http://localhost:58263/strahovanie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/strahovanie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Кредитование</title>
+      <link>http://localhost:58263/kreditovanie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/kreditovanie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Финансовая безопасность</title>
+      <link>http://localhost:58263/finansovaya-bezopasnost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/finansovaya-bezopasnost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Семейные Финансы</title>
+      <link>http://localhost:58263/categories/%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/categories/%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Личные Финансы</title>
+      <link>http://localhost:58263/categories/%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/categories/%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5-%D1%84%D0%B8%D0%BD%D0%B0%D0%BD%D1%81%D1%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Экономика для жизни</title>
+      <link>http://localhost:58263/ekonomika-dlya-jizni/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/ekonomika-dlya-jizni/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Пенсионное Планирование</title>
+      <link>http://localhost:58263/categories/%D0%BF%D0%B5%D0%BD%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/categories/%D0%BF%D0%B5%D0%BD%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Образование И Карьера</title>
+      <link>http://localhost:58263/categories/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D0%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/categories/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D0%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Литература и ресурсы</title>
+      <link>http://localhost:58263/literatura-i-resursy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:58263/literatura-i-resursy/</guid>
       <description></description>
     </item>
   </channel>

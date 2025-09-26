@@ -1,0 +1,112 @@
+{{ define "main" }}
+<!-- Breadcrumbs -->
+{{ partial "breadcrumbs.html" . }}
+
+<main class="main" role="main">
+    <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+        <header class="post__header">
+            <h1 class="post__title" itemprop="headline">{{ .Title }}</h1>
+            {{- with .Params.lead }}
+            <p class="post__lead" itemprop="description">{{ . }}</p>
+            {{- end }}
+            {{ with partial "post_meta.html" . -}}
+            <div class="post__meta meta">{{ . }}</div>
+            {{- end }}
+            
+            <!-- Schema.org microdata -->
+            <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{- if .Lastmod }}
+            <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
+            {{- end }}
+            {{- with .Params.author }}
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person" style="display:none;">
+                <span itemprop="name">{{ . }}</span>
+            </span>
+            {{- else }}
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person" style="display:none;">
+                <span itemprop="name">{{ $.Site.Params.author }}</span>
+            </span>
+            {{- end }}
+            <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="display:none;">
+                <span itemprop="name">{{ .Site.Title }}</span>
+            </span>
+        </header>
+        {{ partial "post_thumbnail.html" (dict "class" "post" "page" .) }}
+        {{- partial "post_toc.html" . -}}
+        <div class="content post__content clearfix" itemprop="articleBody">
+            {{ .Content }}
+        </div>
+        {{- if .Params.tags }}
+        <footer class="post__footer">
+            {{ partial "post_tags.html" . }}
+        </footer>
+        {{- end }}
+    </article>
+</main>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  {{- with .Description }}
+  "description": {{ . | jsonify }},
+  {{- else }}
+  "description": {{ .Summary | plainify | jsonify }},
+  {{- end }}
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  {{- if .Lastmod }}
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  {{- end }}
+  "author": {
+    "@type": "Person",
+    "name": {{ with .Params.author }}{{ . | jsonify }}{{ else }}{{ .Site.Params.author | jsonify }}{{ end }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify }}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  },
+  {{- $images := .Resources.ByType "image" }}
+  {{- if $images }}
+  {{- $featured := index $images 0 }}
+  "image": {{ $featured.Permalink | jsonify }},
+  {{- else }}
+  {{- with .Params.image }}
+  "image": {{ . | absURL | jsonify }},
+  {{- end }}
+  {{- end }}
+  "wordCount": {{ .WordCount }},
+  "inLanguage": {{ .Site.Language.Lang | jsonify }},
+  {{- if .Params.tags }}
+  "keywords": {{ delimit .Params.tags "," | jsonify }},
+  {{- end }}
+  "url": {{ .Permalink | jsonify }}
+}
+</script>
+
+{{ partial "authorbox.html" . }}
+{{ partial "pager.html" . }}
+
+<!-- Related Posts для внутренней перелинковки -->
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<section class="related-posts">
+    <h3>Похожие статьи</h3>
+    <div class="related-posts__list">
+        {{ range . }}
+        <article class="related-post">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <p>{{ .Summary | truncate 100 }}</p>
+        </article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+{{ partial "comments.html" . }}
+{{ end }}

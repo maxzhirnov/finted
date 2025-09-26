@@ -38,3 +38,4 @@ coverage*.out
 dock.sh
 GoBuilds
 dist
+.qodo

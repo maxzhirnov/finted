@@ -1,0 +1,208 @@
+<style>
+/* Breadcrumbs */
+.breadcrumb {
+    margin: 1rem 0;
+    padding: 0;
+    background: #f8f9fa;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+}
+
+.breadcrumb__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+    flex-wrap: wrap;
+}
+
+.breadcrumb__item {
+    display: flex;
+    align-items: center;
+    margin-right: 0.25rem;
+}
+
+.breadcrumb__item:not(:last-child)::after {
+    content: "›";
+    margin: 0 0.5rem;
+    color: #999;
+    font-weight: normal;
+    flex-shrink: 0;
+}
+
+.breadcrumb__item a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+.breadcrumb__item a:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+.breadcrumb__item--active {
+    color: #333;
+    font-weight: 500;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+/* Related Posts */
+.related-posts {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+}
+
+.related-posts h3 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.related-posts__list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.related-post {
+    padding: 1rem;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    background: #fafafa;
+    transition: box-shadow 0.2s ease;
+}
+
+.related-post:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.related-post h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+}
+
+.related-post h4 a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.related-post h4 a:hover {
+    text-decoration: underline;
+}
+
+.related-post p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .breadcrumb {
+        margin: 0.5rem 0;
+        padding: 0.5rem 0.75rem;
+        border-radius: 0;
+        background: #f0f0f0;
+    }
+    
+    .breadcrumb__list {
+        font-size: 0.8rem;
+        line-height: 1.3;
+    }
+    
+    .breadcrumb__item {
+        margin-right: 0.15rem;
+    }
+    
+    .breadcrumb__item:not(:last-child)::after {
+        margin: 0 0.3rem;
+        font-size: 0.9em;
+    }
+    
+    .breadcrumb__item a,
+    .breadcrumb__item--active {
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    /* Убираем обрезку для последнего элемента */
+    .breadcrumb__item--active {
+        max-width: none;
+        white-space: normal;
+        word-break: break-word;
+    }
+    
+    .related-posts {
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+    
+    .related-posts__list {
+        gap: 1rem;
+    }
+    
+    .related-post {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .breadcrumb {
+        margin: 0.25rem 0;
+        padding: 0.4rem 0.5rem;
+    }
+    
+    .breadcrumb__list {
+        font-size: 0.75rem;
+    }
+    
+    .breadcrumb__item a,
+    .breadcrumb__item--active {
+        max-width: 80px;
+    }
+    
+    .breadcrumb__item--active {
+        max-width: none;
+    }
+}
+</style>
+
+{{ if not .IsHome }}
+<nav aria-label="breadcrumb" class="breadcrumb">
+    <ol class="breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="{{ .Site.BaseURL }}" itemprop="item">
+                <span itemprop="name">Главная</span>
+            </a>
+            <meta itemprop="position" content="1" />
+        </li>
+        {{- $scratch := newScratch -}}
+        {{- $scratch.Set "index" 2 -}}
+        {{- range .Ancestors.Reverse -}}
+            {{- if and (not .IsHome) (.File) -}}
+            <li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="{{ .Permalink }}" itemprop="item">
+                    <span itemprop="name">{{ .Title }}</span>
+                </a>
+                <meta itemprop="position" content="{{ $scratch.Get "index" }}" />
+            </li>
+            {{- $scratch.Set "index" ($scratch.Get "index" | add 1) -}}
+            {{- end -}}
+        {{- end -}}
+        <li class="breadcrumb__item breadcrumb__item--active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ .Title }}</span>
+            <meta itemprop="position" content="{{ $scratch.Get "index" }}" />
+        </li>
+    </ol>
+</nav>
+{{ end }}
