@@ -1,0 +1,38 @@
+.logo__logo {
+  display: flex;
+  align-items: center;    /* Vertically center items */
+  justify-content: start;
+  gap: 0.5em;             /* Add some space between logo and title */
+}
+
+.logo__item__svg {
+  width: 140px;
+}
+
+.logo__svg svg {
+    height: auto;
+    max-height: 60px;
+    /* width: auto; */
+  }
+  
+  
+  .finted-logo text {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+      .logo__logo {
+        justify-content: center;
+      }
+
+      .logo__item__svg {
+        width: 60px;
+      }
+      
+      .logo__svg svg {
+        height: 30px;
+        width: auto;
+        /* vertical-align: middle;  */
+      }
+  }
+  
